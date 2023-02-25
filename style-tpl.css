@@ -28,6 +28,18 @@ nav {
     padding: 10px;
 }
 
+@media screen and (max-width: 950px) {
+	nav {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+}
+
+@media screen and (max-width: 550px) {
+	nav {
+		font-size: 18pt;
+	}
+}
+
 p {
 	padding: 12px 0px;
 	font-size: 22px;
