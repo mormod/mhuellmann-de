@@ -14,7 +14,7 @@ main {
 	justify-content: center;
   	grid-template-columns:
     1fr
-    min(80ch, 95%)
+    min(100ch, 95%)
     1fr;
 }
 
@@ -39,14 +39,14 @@ nav {
     grid-template-columns: repeat(5, minmax(0, 1fr));
     text-align: center;
     padding: 12px 0px;
-	font-size: 20pt;
+	font-size: 24pt;
 }
 
 p {
 	padding: 12px 0px;
-	font-size: 16pt;
+	font-size: 20pt;
 	font-weight: 300;
-	line-height: 1.9;
+	line-height: 1.5;
 	text-align: justify;
 	word-break: normal;
 }
@@ -56,7 +56,7 @@ a {
 	text-decoration: none;
 	display: inline-block;
 	color: black;
-	font-size: 16pt;
+	font-size: 20pt;
 	transition: color ease 0.12s;
 
 	&::after {
@@ -84,12 +84,8 @@ a {
 	nav {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
-
+	
 	p, a, nav {
-		font-size: 14pt;
-	}
-
-	h1 {
-		font-size: 30pt;
+		font-size: 18pt;
 	}
 }
