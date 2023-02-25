@@ -4,8 +4,7 @@ html, body {
 	width: 100%;
 	height: 100%;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 24pt;
-	display: flex;
+	display: grid;
 	align-items: center;
 	justify-content: center;
 }
@@ -15,6 +14,7 @@ b {
 }
 
 h1 {
+	font-size: 36pt;
 	text-align: center;
 	width: min-content;
   	min-width: 100%;
@@ -26,6 +26,8 @@ nav {
     grid-template-columns: repeat(5, minmax(0, 1fr));
     text-align: center;
     padding: 10px;
+	font-size: 20pt;
+
 }
 
 @media screen and (max-width: 950px) {
@@ -42,7 +44,7 @@ nav {
 
 p {
 	padding: 12px 0px;
-	font-size: 22px;
+	font-size: 18pt;
 	font-weight: 300;
 	line-height: 1.9;
 	text-align: justify;
