@@ -1,0 +1,31 @@
+{
+  "name": "mhuellmann-de",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.html",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.15",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-nested": "^6.0.1",
+    "postcss-simple-vars": "^7.0.1",
+    "postcss-use": "^3.0.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.21"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mormod/mhuellmann-de.git"
+  },
+  "author": "Moritz R. Huellmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mormod/mhuellmann-de/issues"
+  },
+  "homepage": "https://github.com/mormod/mhuellmann-de#readme"
+}
